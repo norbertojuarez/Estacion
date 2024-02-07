@@ -1,0 +1,40 @@
+
+
+footer p{
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+footer h4{
+    font-weight: bold;
+    
+}
+.flex-foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: none;
+    background-color: #d71fef;
+
+}
+footer {
+    width: 93.8%;
+    height: 30%;
+    margin: 10px auto;
+    padding: 3.05%;
+    border: double rgb(0, 0, 0);
+    background-image: url(../img/Edificios-azul-1.jpg);
+    background-repeat: round;
+    background-attachment: fixed;
+}
+.bg-img {
+    background-image: url(../img/Edificios-azul-2.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.insta-social-icons {
+    height: 50px;
+    width: 50px;
+}

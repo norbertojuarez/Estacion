@@ -1,0 +1,130 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,500&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@500&display=swap');
+//clases
+$mainfont: 'Nunito', sans-serif;
+$textcolor: black;
+$h1font: 'Roboto', sans-serif;
+$h1color: rgb(255, 255, 255);
+$h1fontzize:300%;
+$h2fontcolor:rgb(1, 0, 10);
+$h2fontzize: xx-large;
+$h3color: aliceblue;
+$backgmain: linear-gradient(to top, #7d8d91 3%, #0083f5 81%);
+$mainbacgroundzize: cover;
+$mainfontcolor: rgb(0, 0, 0);
+$backgpeticion: linear-gradient(to top, #7d8d91 3%, #0083f5 81%);
+$backgproyect: linear-gradient(to left, #6e7575 3%, #e5e5f3 81%);
+$backgbody: url(../img/Edificios-azul-2.jpg);
+
+
+h1{
+    display: flex;
+    text-align: center;
+    color: $h1color;
+    font-family: $h1font;
+    font-size: $h1fontzize;
+    align-items: center;
+    flex-direction: row;
+}
+h2{
+    font-family: $mainfont;
+    text-decoration: $textcolor;
+    font-size: $h2fontzize;
+    color: $h2fontcolor;
+}
+h3{
+    color: $h3color;
+    text-decoration: underline;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: $backgmain;
+    margin-top: 20px;
+    padding-top: 1.5%;
+    color: $mainfontcolor;
+    font-family: $mainfont;
+    background-size: $mainbacgroundzize;
+}
+.text-italic {
+    font-style: italic;
+    padding: 2% 9% 0% 9%;
+    font-size: large;
+    line-height: 40px; 
+}
+.text-bold {
+    font-weight: bold;
+}
+.publicidad {
+    max-width: 100%;
+    margin-bottom: 3.5%;
+
+}
+.banner {
+    justify-content: center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+    min-width: 320px;
+    max-width: auto;
+    justify-content: center;
+}
+.proyect-direccion{
+    flex-direction:row;
+}
+.back-peticions {
+
+    background-image: $backgpeticion;
+}
+.section-peticion {
+    margin-top: 20px;
+}
+
+.btn-peticiones {
+    justify-content: end;
+    margin-left: 10px;
+}
+.proyect-back{
+    background-image: $backgproyect;
+}
+.flex {
+    display: flex;
+}
+.contenedor {
+    flex-direction: row;
+    position: relative;
+    box-sizing: border-box;
+}
+.serv-div {
+    width: 100%;
+    height: auto;
+    padding: 4%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 4px solid
+}
+.list-style {
+    list-style-type: none;
+}
+.bg-img {
+    background-image: $backgbody;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.flex-direction {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+.proyect-back{
+    background-image: linear-gradient(to left, #6e7575 3%, #e5e5f3 81%);
+}

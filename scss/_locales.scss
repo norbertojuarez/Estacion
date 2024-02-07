@@ -1,0 +1,18 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300;1,500&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto:wght@500&display=swap');
+$backglocales: linear-gradient(90deg, rgba(52, 55, 69, 0.964005585144214) 0%, rgba(32, 32, 138, 1) 52%, rgba(0, 85, 251, 1) 98%);
+
+main {
+    background-image: url(../img/condominios.jpg);
+    
+    h3 h4 h5{
+        font-family: $mainfont;
+    font-style: normal;
+    color: black;
+
+    }
+}
+.sub-acciones{ 
+    text-decoration: underline;
+    text-shadow: black;
+}
